@@ -1,0 +1,147 @@
+
+main{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url(/birthday-cake-recipe-2-1676059045.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.main-container{
+    text-align: center;
+    font-family: serif;
+   }
+h1{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    color: gold;
+}
+.head{
+    position: absolute;
+    margin: auto;
+    display: block;
+    top :30%;
+    left: 20%; 
+    right: 20%; 
+    
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap:40px;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top :50%;
+    left: 50%; 
+    right: 50%; 
+}
+.timer span h2{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-top: 10px;
+    color: gold;
+}
+.timer span p{
+    font-size: 30px;
+    margin-top: -40px;
+    color: chartreuse;
+}
+#dDay{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    gap: 40px;
+    top :70%;
+    left: 50%; 
+    right: 50%;
+    color: gold; 
+}
+@media screen and (max-width:768px){
+    main{
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        background-color: black;
+        /* background-image: url(/logo3.jpg); */
+        display: flex;
+    }
+.timer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top :50%;
+    left: 4cap; 
+    right: 50%; 
+}
+.timer span h2{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-top: 10px;
+}
+#dDay{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    gap: 40px;
+    top :70%;
+    left: 10%; 
+    right: 40%; 
+}
+}
+@media screen and (max-width:568px){
+    main{
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        background-color: black;
+        /* background-image: url(/logo3.jpg); */
+        display: flex;
+    }
+    .timer{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        gap:20px;
+        align-items: center;
+        position: absolute;
+        margin: auto;
+        top :50%;
+        left: 40%; 
+        right: 50%; 
+    }
+    .timer span h2{
+        font-size: 80px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    }
